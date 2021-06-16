@@ -73,9 +73,8 @@ func run() {
 	e.Use(middleware.Recover())
 	e.Use(middleware.CORS())
 	r := e.Group("")
-	e.Static("/newsFeed_images","newsFeed_images")
-	e.Static("/doctor_images","doctor_images")
-//	r := e.Group("/")
+	e.Static("/champion_images","champion_images")
+	//	r := e.Group("/")
 	jwtConfig := middleware.JWTConfig{
 		Claims:     &env.JwtCustomClaims{},
 		SigningKey: []byte("secret"),
