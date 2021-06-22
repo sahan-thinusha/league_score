@@ -3,7 +3,7 @@ package recommender
 import (
 	"fmt"
 
-	vm "LOLGamePredict/pkg/vector"
+	vm "league_score/pkg/prediction/vector"
 )
 
 type Recommendation interface {

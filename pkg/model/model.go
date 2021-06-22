@@ -19,4 +19,6 @@ type Tabler interface {
 
 func InitModels(db *gorm.DB) {
 	db.AutoMigrate(&User{})
+	db.AutoMigrate(&ProMatches{})
+
 }

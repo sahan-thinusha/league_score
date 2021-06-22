@@ -12,14 +12,9 @@ type User struct {
 	Password  string  `json:"password"  gorm:"size:2000"`
 	Token     string  `json:"token"`
 	Role     string  `json:"role"`
-
 }
 
 func (m *User) PreloadUser(db *gorm.DB) *gorm.DB {
 	return db
 }
 
-
-func (m *User) PreloadFarmer(db *gorm.DB) *gorm.DB {
-	return db.Preload("Farmer")
-}

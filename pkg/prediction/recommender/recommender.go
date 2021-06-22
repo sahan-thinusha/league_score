@@ -7,7 +7,7 @@ import (
 	"sort"
 	"time"
 
-	vm "LOLGamePredict/pkg/vector"
+	vm "league_score/pkg/prediction/vector"
 	log "github.com/sirupsen/logrus"
 )
 
