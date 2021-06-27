@@ -1,0 +1,187 @@
+[
+  {
+    "index": "evelynn",
+    "name": "Evelynn",
+    "avatar": "champion_images/RiotX_ChampionList_evelynn.jpg"
+  },
+  {
+    "index": "zed",
+    "name": "Zed",
+    "avatar": "champion_images/RiotX_ChampionList_zed.jpg"
+  },
+  {
+    "index": "nunu",
+    "name": "Nunu",
+    "avatar": "champion_images/RiotX_ChampionList_nunu.jpg"
+  },
+  {
+    "index": "swain",
+    "name": "Swain",
+    "avatar": "champion_images/RiotX_ChampionList_swain.jpg"
+  },
+  {
+    "index": "taric",
+    "name": "Taric",
+    "avatar": "champion_images/RiotX_ChampionList_taric.jpg"
+  },
+  {
+    "index": "skarner",
+    "name": "Skarner",
+    "avatar": "champion_images/RiotX_ChampionList_skarner.jpg"
+  },
+  {
+    "index": "ekko",
+    "name": "Ekko",
+    "avatar": "champion_images/RiotX_ChampionList_ekko.jpg"
+  },
+  {
+    "index": "nasus",
+    "name": "Nasus",
+    "avatar": "champion_images/RiotX_ChampionList_nasus.jpg"
+  },
+  {
+    "index": "graves",
+    "name": "Graves",
+    "avatar": "champion_images/RiotX_ChampionList_graves.jpg"
+  },
+  {
+    "index": "jax",
+    "name": "Jax",
+    "avatar": "champion_images/RiotX_ChampionList_jax.jpg"
+  },
+  {
+    "index": "shaco",
+    "name": "Shaco",
+    "avatar": "champion_images/RiotX_ChampionList_shaco.jpg"
+  },
+  {
+    "index": "leesin",
+    "name": "Leesin",
+    "avatar": "champion_images/RiotX_ChampionList_leesin.jpg"
+  },
+  {
+    "index": "aatrox",
+    "name": "Aatrox",
+    "avatar": "champion_images/RiotX_ChampionList_aatrox.jpg"
+  },
+  {
+    "index": "xayah",
+    "name": "Xayah",
+    "avatar": "champion_images/RiotX_ChampionList_xayah.jpg"
+  },
+  {
+    "index": "renekton",
+    "name": "Renekton",
+    "avatar": "champion_images/RiotX_ChampionList_renekton.jpg"
+  },
+  {
+    "index": "pyke",
+    "name": "Pyke",
+    "avatar": "champion_images/RiotX_ChampionList_pyke.jpg"
+  },
+  {
+    "index": "nidalee",
+    "name": "Nidalee",
+    "avatar": "champion_images/RiotX_ChampionList_nidalee.jpg"
+  },
+  {
+    "index": "kassadin",
+    "name": "Kassadin",
+    "avatar": "champion_images/RiotX_ChampionList_kassadin.jpg"
+  },
+  {
+    "index": "sona",
+    "name": "Sona",
+    "avatar": "champion_images/RiotX_ChampionList_sona.jpg"
+  },
+  {
+    "index": "monkeyking",
+    "name": "Monkeyking",
+    "avatar": "champion_images/RiotX_ChampionList_monkeyking.jpg"
+  },
+  {
+    "index": "reksai",
+    "name": "Reksai",
+    "avatar": "champion_images/RiotX_ChampionList_reksai.jpg"
+  },
+  {
+    "index": "cassiopeia",
+    "name": "Cassiopeia",
+    "avatar": "champion_images/RiotX_ChampionList_cassiopeia.jpg"
+  },
+  {
+    "index": "taliyah",
+    "name": "Taliyah",
+    "avatar": "champion_images/RiotX_ChampionList_taliyah.jpg"
+  },
+  {
+    "index": "malzahar",
+    "name": "Malzahar",
+    "avatar": "champion_images/RiotX_ChampionList_malzahar.jpg"
+  },
+  {
+    "index": "amumu",
+    "name": "Amumu",
+    "avatar": "champion_images/RiotX_ChampionList_amumu.jpg"
+  },
+  {
+    "index": "khazix",
+    "name": "Khazix",
+    "avatar": "champion_images/RiotX_ChampionList_khazix.jpg"
+  },
+  {
+    "index": "olaf",
+    "name": "Olaf",
+    "avatar": "champion_images/RiotX_ChampionList_olaf.jpg"
+  },
+  {
+    "index": "irelia",
+    "name": "Irelia",
+    "avatar": "champion_images/RiotX_ChampionList_irelia.jpg"
+  },
+  {
+    "index": "riven",
+    "name": "Riven",
+    "avatar": "champion_images/RiotX_ChampionList_riven.jpg"
+  },
+  {
+    "index": "malzahar",
+    "name": "Malzahar",
+    "avatar": "champion_images/RiotX_ChampionList_malzahar.jpg"
+  },
+  {
+    "index": "nami",
+    "name": "Nami",
+    "avatar": "champion_images/RiotX_ChampionList_nami.jpg"
+  },
+  {
+    "index": "jhin",
+    "name": "Jhin",
+    "avatar": "champion_images/RiotX_ChampionList_jhin.jpg"
+  },
+  {
+    "index": "kogmaw",
+    "name": "Kogmaw",
+    "avatar": "champion_images/RiotX_ChampionList_kogmaw.jpg"
+  },
+  {
+    "index": "gangplank",
+    "name": "Gangplank",
+    "avatar": "champion_images/RiotX_ChampionList_gangplank.jpg"
+  },
+  {
+    "index": "syndra",
+    "name": "Syndra",
+    "avatar": "champion_images/RiotX_ChampionList_syndra.jpg"
+  },
+  {
+    "index": "poppy",
+    "name": "Poppy",
+    "avatar": "champion_images/RiotX_ChampionList_poppy.jpg"
+  },
+  {
+    "index": "volibear",
+    "name": "Volibear",
+    "avatar": "champion_images/RiotX_ChampionList_volibear.jpg"
+  }
+]

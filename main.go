@@ -3,9 +3,14 @@ package main
 import (
 	"crypto/subtle"
 	gorm "github.com/jinzhu/gorm"
+	log "github.com/sirupsen/logrus"
+	"github.com/spf13/pflag"
 	logger "league_score/pkg/logger"
 	model "league_score/pkg/model"
+	"league_score/pkg/prediction/data"
+	"league_score/pkg/prediction/recommender"
 	"os"
+	"strings"
 )
 
 import (
@@ -49,11 +54,29 @@ func main() {
 	}
 	env.RDB = database0
 
+	train, header, err := data.ReadData(*trainingData)
+	if err != nil {
+		log.Fatalf("Error reading training set: %v", err)
+	}
+	for i, val := range header {
+		name := strings.ToLower(val)
+		env.ChampionToIndex[name] = i
+		env.IndexToChampion[i] = name
+	}
+
+	recommender.ENGINE = recommender.NewNeighborhoodBasedRecommender(train, 5)
+
 	model.InitModels(database0)
 
 	CreateDefaultUser()
+	AddChampionData()
+
 
 	RunProxy()
+}
+
+func AddChampionData() {
+
 }
 
 func RunProxy() {
@@ -62,9 +85,12 @@ func RunProxy() {
 	run()
 }
 
+
+
 var (
-	endpoint = flag.String("endpoint", "localhost:50051", "Your Description")
+	trainingData = pflag.String("trainingset", "static/winning_teams.csv", "path to training dataset")
 )
+
 
 func run() {
 
@@ -74,7 +100,6 @@ func run() {
 	e.Use(middleware.CORS())
 	r := e.Group("")
 	e.Static("/champion_images","champion_images")
-	//	r := e.Group("/")
 	jwtConfig := middleware.JWTConfig{
 		Claims:     &env.JwtCustomClaims{},
 		SigningKey: []byte("secret"),
@@ -93,6 +118,7 @@ func run() {
 		return false, nil
 	}))
 	controller_echo.APIControllerUserBasic(u)
+	controller_echo.APIControllerPredict(u)
 
 	e.Logger.Fatal(e.Start(":" + env.RestPort))
 }
