@@ -9,6 +9,9 @@ import (
 var RDB *gorm.DB
 const REST_PORT = "REST_PORT"
 var RestPort = "8080"
+var IndexToChampion = make(map[int]string)
+var ChampionToIndex = make(map[string]int)
+
 
 const E3_DIALET = "E3_DIALET"
 
@@ -72,5 +75,8 @@ const (
 type JwtCustomClaims struct {
 	Sub  string
 	Auth string
+	Id int64
+	SummonerName string
+	SummonerRegion string
 	jwt.StandardClaims
 }

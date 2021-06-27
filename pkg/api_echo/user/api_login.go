@@ -47,10 +47,13 @@ func Login(c echo.Context) error {
 		return c.JSON(http.StatusBadRequest, nil)
 	}
 
+	gamer := model.Gamer{}
+	db.Where("user_id = ?",targetUser.ID).First(&gamer)
+
 	claims := env.JwtCustomClaims{Sub: targetUser.Email, Auth: targetUser.Role, StandardClaims: jwt.StandardClaims{
 		ExpiresAt: time.Now().Add(time.Hour * 72).Unix(),
 		IssuedAt:  time.Now().Unix(),
-	}}
+	},Id: targetUser.ID,SummonerName: gamer.RiotId,SummonerRegion: gamer.Region}
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
 	t, err := token.SignedString([]byte("secret"))
 	c.Response().Header().Set(echo.HeaderAuthorization, fmt.Sprintf("Bearer %v", t))

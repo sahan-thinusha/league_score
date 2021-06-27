@@ -7,8 +7,8 @@ import (
 	"sort"
 	"time"
 
-	vm "league_score/pkg/prediction/vector"
 	log "github.com/sirupsen/logrus"
+	vm "league_score/pkg/prediction/vector"
 )
 
 type NeighborhoodBasedRecommender struct {
@@ -21,6 +21,9 @@ type slice struct {
 	sort.Interface
 	idx []int
 }
+
+var ENGINE *NeighborhoodBasedRecommender
+
 
 func NewNeighborhoodBasedRecommender(data [][]float64, k int) *NeighborhoodBasedRecommender {
 	if len(data) == 0 {

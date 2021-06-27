@@ -18,3 +18,6 @@ func (m *User) PreloadUser(db *gorm.DB) *gorm.DB {
 	return db
 }
 
+func (m *User) PreloadUserAndGamersProfile(db *gorm.DB) *gorm.DB {
+	return db
+}
