@@ -36,8 +36,13 @@ func CreateGamer(c echo.Context) error {
 
 
 func APIControllerGamer(g *echo.Group) {
-	g.GET("api/Gammer/:id", GetGamer)
-	g.GET("api/Gamers", GetGamers)
-	g.POST("api/Gamer", CreateGamer)
+	g.GET("api/gammer/:id", GetGamer)
+	g.GET("api/gamers", GetGamers)
+
+}
+
+func APIControllerGamerOpen(g *echo.Group) {
+
+	g.POST("api/gamer", CreateGamer)
 
 }

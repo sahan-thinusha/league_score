@@ -183,5 +183,475 @@
     "index": "volibear",
     "name": "Volibear",
     "avatar": "champion_images/RiotX_ChampionList_volibear.jpg"
-  }
+  },
+  {
+    "index": "kennen",
+    "name": "Kennen",
+    "avatar": "champion_images/RiotX_ChampionList_kennen.jpg"
+  },
+  {
+    "index": "ryze",
+    "name": "Ryze",
+    "avatar": "champion_images/RiotX_ChampionList_ryze.jpg"
+  },
+  {
+    "index": "gragas",
+    "name": "Gragas",
+    "avatar": "champion_images/RiotX_ChampionList_gragas.jpg"
+  },
+  {
+    "index": "garen",
+    "name": "Garen",
+    "avatar": "champion_images/RiotX_ChampionList_garen.jpg"
+  },
+  {
+    "index": "diana",
+    "name": "Diana",
+    "avatar": "champion_images/RiotX_ChampionList_diana.jpg"
+  },
+  {
+    "index": "karthus",
+    "name": "Karthus",
+    "avatar": "champion_images/RiotX_ChampionList_karthus.jpg"
+  },
+  {
+    "index": "jayce",
+    "name": "Jayce",
+    "avatar": "champion_images/RiotX_ChampionList_jayce.jpg"
+  },
+  {
+    "index": "bard",
+    "name": "Bard",
+    "avatar": "champion_images/RiotX_ChampionList_bard.jpg"
+  },
+  {
+    "index": "sion",
+    "name": "Sion",
+    "avatar": "champion_images/RiotX_ChampionList_sion.jpg"
+  },
+  {
+    "index": "elise",
+    "name": "Elise",
+    "avatar": "champion_images/RiotX_ChampionList_elise.jpg"
+  },
+  {
+    "index": "alistar",
+    "name": "Alistar",
+    "avatar": "champion_images/RiotX_ChampionList_alistar.jpg"
+  },
+  {
+    "index": "vayne",
+    "name": "Vayne",
+    "avatar": "champion_images/RiotX_ChampionList_vayne.jpg"
+  },
+  {
+    "index": "tahmkench",
+    "name": "Tahmkench",
+    "avatar": "champion_images/RiotX_ChampionList_tahmkench.jpg"
+  },
+  {
+    "index": "ezreal",
+    "name": "Ezreal",
+    "avatar": "champion_images/RiotX_ChampionList_ezreal.jpg"
+  },
+  {
+    "index": "mordekaiser",
+    "name": "Mordekaiser",
+    "avatar": "champion_images/RiotX_ChampionList_mordekaiser.jpg"
+  },
+  {
+    "index": "lux",
+    "name": "Lux",
+    "avatar": "champion_images/RiotX_ChampionList_lux.jpg"
+  },
+  {
+    "index": "fiora",
+    "name": "Fiora",
+    "avatar": "champion_images/RiotX_ChampionList_fiora.jpg"
+  },
+  {
+    "index": "kalista",
+    "name": "Kalista",
+    "avatar": "champion_images/RiotX_ChampionList_kalista.jpg"
+  },
+  {
+    "index": "twistedfate",
+    "name": "Twistedfate",
+    "avatar": "champion_images/RiotX_ChampionList_twistedfate.jpg"
+  },
+  {
+    "index": "kled",
+    "name": "Kled",
+    "avatar": "champion_images/RiotX_ChampionList_kled.jpg"
+  },
+  {
+    "index": "kindred",
+    "name": "Kindred",
+    "avatar": "champion_images/RiotX_ChampionList_kindred.jpg"
+  },
+  {
+    "index": "illaoi",
+    "name": "Illaoi",
+    "avatar": "champion_images/RiotX_ChampionList_illaoi.jpg"
+  },
+  {
+    "index": "yorick",
+    "name": "Yorick",
+    "avatar": "champion_images/RiotX_ChampionList_yorick.jpg"
+  },
+  {
+    "index": "nocturne",
+    "name": "Nocturne",
+    "avatar": "champion_images/RiotX_ChampionList_nocturne.jpg"
+  },
+  {
+    "index": "jarvaniv",
+    "name": "Jarvaniv",
+    "avatar": "champion_images/RiotX_ChampionList_jarvaniv.jpg"
+  },
+  {
+    "index": "ashe",
+    "name": "Ashe",
+    "avatar": "champion_images/RiotX_ChampionList_ashe.jpg"
+  },
+  {
+    "index": "malphite",
+    "name": "Malphite",
+    "avatar": "champion_images/RiotX_ChampionList_malphite.jpg"
+  },
+  {
+    "index": "aurelionsol",
+    "name": "Aurelionsol",
+    "avatar": "champion_images/RiotX_ChampionList_aurelionsol.jpg"
+  },
+  {
+    "index": "zac",
+    "name": "Zac",
+    "avatar": "champion_images/RiotX_ChampionList_zac.jpg"
+  },
+  {
+    "index": "talon",
+    "name": "Talon",
+    "avatar": "champion_images/RiotX_ChampionList_talon.jpg"
+  },
+  {
+    "index": "sivir",
+    "name": "Sivir",
+    "avatar": "champion_images/RiotX_ChampionList_sivir.jpg"
+  },
+  {
+    "index": "quinn",
+    "name": "Quinn",
+    "avatar": "champion_images/RiotX_ChampionList_quinn.jpg"
+  },
+  {
+    "index": "heimerdinger",
+    "name": "Heimerdinger",
+    "avatar": "champion_images/RiotX_ChampionList_heimerdinger.jpg"
+  },
+  {
+    "index": "leblanc",
+    "name": "Leblanc",
+    "avatar": "champion_images/RiotX_ChampionList_leblanc.jpg"
+  },
+  {
+    "index": "xinzhao",
+    "name": "Xinzhao",
+    "avatar": "champion_images/RiotX_ChampionList_xinzhao.jpg"
+  },
+  {
+    "index": "katarina",
+    "name": "Katarina",
+    "avatar": "champion_images/RiotX_ChampionList_katarina.jpg"
+  },
+  {
+    "index": "chogath",
+    "name": "Chogath",
+    "avatar": "champion_images/RiotX_ChampionList_chogath.jpg"
+  },
+  {
+    "index": "shen",
+    "name": "Shen",
+    "avatar": "champion_images/RiotX_ChampionList_shen.jpg"
+  },
+  {
+    "index": "ivern",
+    "name": "Ivern",
+    "avatar": "champion_images/RiotX_ChampionList_ivern.jpg"
+  },
+  {
+    "index": "jinx",
+    "name": "Jinx",
+    "avatar": "champion_images/RiotX_ChampionList_jinx.jpg"
+  },
+  {
+    "index": "caitlyn",
+    "name": "Caitlyn",
+    "avatar": "champion_images/RiotX_ChampionList_caitlyn.jpg"
+  },
+  {
+    "index": "missfortune",
+    "name": "Missfortune",
+    "avatar": "champion_images/RiotX_ChampionList_missfortune.jpg"
+  },
+  {
+    "index": "morgana",
+    "name": "Morgana",
+    "avatar": "champion_images/RiotX_ChampionList_morgana.jpg"
+  },
+  {
+    "index": "viktor",
+    "name": "Viktor",
+    "avatar": "champion_images/RiotX_ChampionList_viktor.jpg"
+  },
+  {
+    "index": "brand",
+    "name": "Brand",
+    "avatar": "champion_images/RiotX_ChampionList_brand.jpg"
+  },
+  {
+    "index": "warwick",
+    "name": "Warwick",
+    "avatar": "champion_images/RiotX_ChampionList_warwick.jpg"
+  },
+  {
+    "index": "corki",
+    "name": "Corki",
+    "avatar": "champion_images/RiotX_ChampionList_corki.jpg"
+  },
+  {
+    "index": "braum",
+    "name": "Braum",
+    "avatar": "champion_images/RiotX_ChampionList_braum.jpg"
+  },
+  {
+    "index": "maokai",
+    "name": "Maokai",
+    "avatar": "champion_images/RiotX_ChampionList_maokai.jpg"
+  },
+  {
+    "index": "draven",
+    "name": "Draven",
+    "avatar": "champion_images/RiotX_ChampionList_draven.jpg"
+  },
+  {
+    "index": "ornn",
+    "name": "Ornn",
+    "avatar": "champion_images/RiotX_ChampionList_ornn.jpg"
+  },
+  {
+    "index": "thresh",
+    "name": "Thresh",
+    "avatar": "champion_images/RiotX_ChampionList_thresh.jpg"
+  },
+  {
+    "index": "urgot",
+    "name": "Urgot",
+    "avatar": "champion_images/RiotX_ChampionList_urgot.jpg"
+  },
+  {
+    "index": "tristana",
+    "name": "Tristana",
+    "avatar": "champion_images/RiotX_ChampionList_tristana.jpg"
+  },
+  {
+    "index": "galio",
+    "name": "Galio",
+    "avatar": "champion_images/RiotX_ChampionList_galio.jpg"
+  },
+  {
+    "index": "vladimir",
+    "name": "Vladimir",
+    "avatar": "champion_images/RiotX_ChampionList_vladimir.jpg"
+  },
+  {
+    "index": "orianna",
+    "name": "Orianna",
+    "avatar": "champion_images/RiotX_ChampionList_orianna.jpg"
+  },
+  {
+    "index": "masteryi",
+    "name": "Masteryi",
+    "avatar": "champion_images/RiotX_ChampionList_masteryi.jpg"
+  },
+  {
+    "index": "soraka",
+    "name": "Soraka",
+    "avatar": "champion_images/RiotX_ChampionList_soraka.jpg"
+  },
+  {
+    "index": "varus",
+    "name": "Varus",
+    "avatar": "champion_images/RiotX_ChampionList_varus.jpg"
+  },
+  {
+    "index": "fizz",
+    "name": "Fizz",
+    "avatar": "champion_images/RiotX_ChampionList_fizz.jpg"
+  },
+  {
+    "index": "veigar",
+    "name": "Veigar",
+    "avatar": "champion_images/RiotX_ChampionList_veigar.jpg"
+  },
+  {
+    "index": "rengar",
+    "name": "Rengar",
+    "avatar": "champion_images/RiotX_ChampionList_rengar.jpg"
+  },
+  {
+    "index": "nautilus",
+    "name": "Nautilus",
+    "avatar": "champion_images/RiotX_ChampionList_nautilus.jpg"
+  },
+  {
+    "index": "vi",
+    "name": "Vi",
+    "avatar": "champion_images/RiotX_ChampionList_vi.jpg"
+  },
+  {
+    "index": "lulu",
+    "name": "Lulu",
+    "avatar": "champion_images/RiotX_ChampionList_lulu.jpg"
+  },
+  {
+    "index": "pantheon",
+    "name": "Pantheon",
+    "avatar": "champion_images/RiotX_ChampionList_pantheon.jpg"
+  },
+  {
+    "index": "trundle",
+    "name": "Trundle",
+    "avatar": "champion_images/RiotX_ChampionList_trundle.jpg"
+  },
+  {
+    "index": "ahri",
+    "name": "Ahri",
+    "avatar": "champion_images/RiotX_ChampionList_ahri.jpg"
+  },
+  {
+    "index": "kayn",
+    "name": "Kayn",
+    "avatar": "champion_images/RiotX_ChampionList_kayn.jpg"
+  },
+  {
+    "index": "zoe",
+    "name": "Zoe",
+    "avatar": "champion_images/RiotX_ChampionList_zoe.jpg"
+  },
+  {
+    "index": "shyvana",
+    "name": "Shyvana",
+    "avatar": "champion_images/RiotX_ChampionList_shyvana.jpg"
+  },
+  {
+    "index": "udyr",
+    "name": "Udyr",
+    "avatar": "champion_images/RiotX_ChampionList_udyr.jpg"
+  },
+  {
+    "index": "camille",
+    "name": "Camille",
+    "avatar": "champion_images/RiotX_ChampionList_camille.jpg"
+  },
+  {
+    "index": "lucian",
+    "name": "Lucian",
+    "avatar": "champion_images/RiotX_ChampionList_lucian.jpg"
+  },
+  {
+    "index": "zyra",
+    "name": "Zyra",
+    "avatar": "champion_images/RiotX_ChampionList_zyra.jpg"
+  },
+  {
+    "index": "fiddlesticks",
+    "name": "Fiddlesticks",
+    "avatar": "champion_images/RiotX_ChampionList_fiddlesticks.jpg"
+  },
+  {
+    "index": "zilean",
+    "name": "Zilean",
+    "avatar": "champion_images/RiotX_ChampionList_zilean.jpg"
+  },
+  {
+    "index": "rakan",
+    "name": "Rakan",
+    "avatar": "champion_images/RiotX_ChampionList_rakan.jpg"
+  },
+  {
+    "index": "rammus",
+    "name": "Rammus",
+    "avatar": "champion_images/RiotX_ChampionList_rammus.jpg"
+  },
+  {
+    "index": "rumble",
+    "name": "Rumble",
+    "avatar": "champion_images/RiotX_ChampionList_rumble.jpg"
+  },
+  {
+    "index": "gnar",
+    "name": "Gnar",
+    "avatar": "champion_images/RiotX_ChampionList_gnar.jpg"
+  },
+  {
+    "index": "kaisa",
+    "name": "Kaisa",
+    "avatar": "champion_images/RiotX_ChampionList_kaisa.jpg"
+  },
+  {
+    "index": "sejuani",
+    "name": "Sejuani",
+    "avatar": "champion_images/RiotX_ChampionList_sejuani.jpg"
+  },
+  {
+    "index": "xerath",
+    "name": "Xerath",
+    "avatar": "champion_images/RiotX_ChampionList_xerath.jpg"
+  },
+  {
+    "index": "ziggs",
+    "name": "Ziggs",
+    "avatar": "champion_images/RiotX_ChampionList_ziggs.jpg"
+  },
+  {
+    "index": "velkoz",
+    "name": "Velkoz",
+    "avatar": "champion_images/RiotX_ChampionList_velkoz.jpg"
+  },
+  {
+    "index": "singed",
+    "name": "Singed",
+    "avatar": "champion_images/RiotX_ChampionList_singed.jpg"
+  },
+  {
+    "index": "karma",
+    "name": "Karma",
+    "avatar": "champion_images/RiotX_ChampionList_karma.jpg"
+  },
+  {
+    "index": "akali",
+    "name": "Akali",
+    "avatar": "champion_images/RiotX_ChampionList_akali.jpg"
+  },
+  {
+    "index": "leona",
+    "name": "Leona",
+    "avatar": "champion_images/RiotX_ChampionList_leona.jpg"
+  },
+  {
+    "index": "azir",
+    "name": "Azir",
+    "avatar": "champion_images/RiotX_ChampionList_azir.jpg"
+  },
+  {
+    "index": "teemo",
+    "name": "Teemo",
+    "avatar": "champion_images/RiotX_ChampionList_teemo.jpg"
+  },
+  {
+  "index": "darius",
+  "name": "Darius",
+  "avatar": "champion_images/RiotX_ChampionList_darius.jpg"
+}
 ]

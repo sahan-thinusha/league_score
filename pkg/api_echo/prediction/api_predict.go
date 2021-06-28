@@ -95,15 +95,14 @@ func PredictTeam(c echo.Context)  ([] model.Team,error) {
 
 
 	return teams,err
-
-
 }
 
 
 func getChampionData(index string) *model.Champion{
 	db :=env.RDB
 	champion := model.Champion{}
-	err := db.Where("index = ?",index).First(&champion).Error
+	db.LogMode(true)
+	err := db.Where("ch_id = ?",index).First(&champion).Error
 	if err!=nil{
 		return nil
 	}else{

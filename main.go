@@ -2,9 +2,12 @@ package main
 
 import (
 	"crypto/subtle"
+	"encoding/json"
+	"fmt"
 	gorm "github.com/jinzhu/gorm"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
+	"io/ioutil"
 	logger "league_score/pkg/logger"
 	model "league_score/pkg/model"
 	"league_score/pkg/prediction/data"
@@ -76,7 +79,20 @@ func main() {
 }
 
 func AddChampionData() {
-
+	db := env.RDB
+	champions := []*model.Champion{}
+	db.Find(&champions)
+	if len(champions) == 0 {
+		file, err := ioutil.ReadFile("static/champions_data.json")
+		if err != nil{
+			fmt.Println(err)
+		}
+		data := []*model.Champion{}
+		_ = json.Unmarshal(file, &data)
+		for _,champ :=range data{
+			db.Create(champ)
+		}
+	}
 }
 
 func RunProxy() {
@@ -107,7 +123,9 @@ func run() {
 
 
 	r.Use(middleware.JWTWithConfig(jwtConfig))
-
+	controller_echo.APIControllerPredict(r)
+	controller_echo.APIControllerChampion(r)
+controller_echo.APIControllerGamer(r)
 
 	u := e.Group("/")
 	u.Use(middleware.BasicAuth(func(username, password string, c echo.Context) (bool, error) {
@@ -118,7 +136,7 @@ func run() {
 		return false, nil
 	}))
 	controller_echo.APIControllerUserBasic(u)
-	controller_echo.APIControllerPredict(u)
+	controller_echo.APIControllerGamerOpen(u)
 
 	e.Logger.Fatal(e.Start(":" + env.RestPort))
 }

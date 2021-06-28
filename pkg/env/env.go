@@ -8,7 +8,7 @@ import (
 
 var RDB *gorm.DB
 const REST_PORT = "REST_PORT"
-var RestPort = "8080"
+var RestPort = "1235"
 var IndexToChampion = make(map[int]string)
 var ChampionToIndex = make(map[string]int)
 
