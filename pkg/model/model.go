@@ -22,5 +22,6 @@ func InitModels(db *gorm.DB) {
 	db.AutoMigrate(&ProMatches{})
 	db.AutoMigrate(&Champion{})
 	db.AutoMigrate(&Gamer{})
+	db.AutoMigrate(&Match{})
 
 }

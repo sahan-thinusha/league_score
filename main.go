@@ -46,6 +46,7 @@ func readEnvs() {
 	}
 }
 
+
 func main() {
 
 	readEnvs()
@@ -73,7 +74,8 @@ func main() {
 
 	CreateDefaultUser()
 	AddChampionData()
-
+	AddVideoData()
+	CreateDefaultData()
 
 	RunProxy()
 }
@@ -84,13 +86,36 @@ func AddChampionData() {
 	db.Find(&champions)
 	if len(champions) == 0 {
 		file, err := ioutil.ReadFile("static/champions_data.json")
-		if err != nil{
+		if err != nil {
 			fmt.Println(err)
 		}
 		data := []*model.Champion{}
 		_ = json.Unmarshal(file, &data)
-		for _,champ :=range data{
+		for _, champ := range data {
 			db.Create(champ)
+		}
+	}
+}
+func AddVideoData() {
+	db := env.RDB
+	pro := []*model.ProMatches{}
+	db.Find(&pro)
+
+	if len(pro) == 0 {
+
+		file, err := ioutil.ReadFile("static/promatches.json")
+		fmt.Println(string(file))
+		if err != nil {
+			fmt.Println(err)
+		}
+		data := []*model.ProMatches{}
+		err = json.Unmarshal(file, &data)
+		if err != nil {
+			fmt.Println(err)
+		}
+		for _, pro := range data {
+			fmt.Println(pro)
+			db.Create(pro)
 		}
 	}
 }
@@ -114,18 +139,23 @@ func run() {
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 	e.Use(middleware.CORS())
+	e.Static("/champion_images", "champion_images")
+	e.Static("/match", "matches")
+
+
 	r := e.Group("")
-	e.Static("/champion_images","champion_images")
+
 	jwtConfig := middleware.JWTConfig{
 		Claims:     &env.JwtCustomClaims{},
 		SigningKey: []byte("secret"),
 	}
 
-
 	r.Use(middleware.JWTWithConfig(jwtConfig))
 	controller_echo.APIControllerPredict(r)
 	controller_echo.APIControllerChampion(r)
-controller_echo.APIControllerGamer(r)
+	controller_echo.APIControllerGamer(r)
+	controller_echo.APIControllerVideos(r)
+	controller_echo.APIControllerMatch(r)
 
 	u := e.Group("/")
 	u.Use(middleware.BasicAuth(func(username, password string, c echo.Context) (bool, error) {
@@ -154,6 +184,31 @@ func CreateDefaultUser(){
 		targetUser.Password = "admin"
 		targetUser.Name = "Admin"
 		db.Create(&targetUser)
+	}
+}
+
+func CreateDefaultData() {
+	db := env.RDB
+	pro := []*model.Match{}
+	db.Find(&pro)
+
+	if len(pro) == 0 {
+
+		file, err := ioutil.ReadFile("static/match.json")
+		fmt.Println(string(file))
+		if err != nil {
+			fmt.Println(err)
+		}
+		data := []*model.Match{}
+		err = json.Unmarshal(file, &data)
+		if err != nil {
+			fmt.Println(err)
+		}
+		for _, pro := range data {
+			user := model.User{}
+			user.ID = 1
+			db.Create(pro)
+		}
 	}
 }
 

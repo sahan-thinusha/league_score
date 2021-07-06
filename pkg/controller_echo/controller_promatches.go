@@ -2,12 +2,12 @@ package controller_echo
 
 import (
 	"github.com/labstack/echo/v4"
-	"league_score/pkg/api_echo/match"
+	"league_score/pkg/api_echo/video"
 	"net/http"
 )
 
-func GetMatches(c echo.Context) error {
-	result, err := match.GetMatchData(c)
+func GetVideos(c echo.Context) error {
+	result, err := video.GetVideos(c)
 	if err != nil {
 		return c.JSON(http.StatusBadRequest, err.Error())
 	} else {
@@ -15,6 +15,6 @@ func GetMatches(c echo.Context) error {
 	}
 }
 
-func APIControllerMatch(g *echo.Group) {
-	g.GET("api/match", GetMatches)
+func APIControllerVideos(g *echo.Group) {
+	g.GET("api/video", GetVideos)
 }

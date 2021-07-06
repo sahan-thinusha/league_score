@@ -5,7 +5,7 @@ import "github.com/jinzhu/gorm"
 type ProMatches struct {
 	Model
 	Title string  `json:"title"`
-	Description  string  `json:"description gorm:"size:2000""`
+	Description  string  `json:"description gorm:"`
 	VideoId  string  `json:"videoId"`
 }
 

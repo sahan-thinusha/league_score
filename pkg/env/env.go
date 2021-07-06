@@ -35,7 +35,7 @@ var E3user = "root"
 
 const E3_PWD = "E3_PWD"
 
-var E3pwd = "123"
+var E3pwd = "sahan"
 
 const E3_URL = "E3_URL"
 
